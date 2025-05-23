@@ -1,4 +1,4 @@
-package reactive.concept;
+package reactive.exercise;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -10,8 +10,8 @@ import java.util.Iterator;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static reactive.concept.publisher.DataOperator.map;
-import static reactive.concept.publisher.DataOperator.take;
+import static reactive.exercise.publisher.DataOperator.map;
+import static reactive.exercise.publisher.DataOperator.take;
 
 @Slf4j
 @Data

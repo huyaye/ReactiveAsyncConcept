@@ -1,9 +1,9 @@
-package reactive.concept.publisher;
+package reactive.exercise.publisher;
 
 import lombok.extern.slf4j.Slf4j;
 import org.reactivestreams.Publisher;
 import org.reactivestreams.Subscriber;
-import reactive.concept.subscriber.DelegateSubscriber;
+import reactive.exercise.subscriber.DelegateSubscriber;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
